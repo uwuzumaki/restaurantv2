@@ -1,1 +1,1 @@
-# restaurantv2
+Restaurant assignment for The Odin Project
