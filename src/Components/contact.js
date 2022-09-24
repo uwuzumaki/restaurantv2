@@ -6,6 +6,11 @@ const Contact = () => {
   homeCenter.classList = "home-center";
   wrapper.appendChild(homeCenter);
 
+  const title = document.createElement("div");
+  title.classList = "contact-title";
+  title.innerHTML = "Contact";
+  homeCenter.appendChild(title);
+
   return wrapper;
 };
 

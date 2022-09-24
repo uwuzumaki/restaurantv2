@@ -6,6 +6,11 @@ const Menu = () => {
   homeCenter.classList = "home-center";
   wrapper.appendChild(homeCenter);
 
+  const title = document.createElement("div");
+  title.classList = "menu-title";
+  title.innerHTML = "Menu";
+  homeCenter.appendChild(title);
+
   return wrapper;
 };
 
