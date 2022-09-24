@@ -21,6 +21,29 @@
       format("svg"); /* Legacy iOS */
 }
 
+/* reem-kufi-ink-regular - latin */
+@font-face {
+  font-family: "Reem Kufi Ink";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/reemkufiink/reem-kufi-ink-v4-latin-regular.svg#ReemKufiInk")
+      format("svg"); /* Legacy iOS */
+}
+
 *,
 body {
   padding: 0;
@@ -63,6 +86,7 @@ body {
 .pages {
   display: flex;
   align-items: center;
+  font-family: "Reem Kufi Ink";
 }
 
 .pages > div {
@@ -90,6 +114,11 @@ body {
 
 .home-div {
   margin: 30px;
+}
+
+.big-logo {
+  font-family: "Reem Kufi Ink";
+  font-size: 2rem;
 }
 
 .footer {
