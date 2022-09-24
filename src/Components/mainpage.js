@@ -9,7 +9,7 @@ const mainPage = () => {
   container.appendChild(content);
 
   Header();
-  Home();
+  content.appendChild(Home());
   Footer();
 };
 

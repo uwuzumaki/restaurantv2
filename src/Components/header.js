@@ -30,17 +30,17 @@ const Header = () => {
   header.appendChild(pages);
 
   const home = document.createElement("div");
-  home.classList = "home";
+  home.classList = "home nav-btn";
   home.innerHTML = "Home";
   pages.appendChild(home);
 
   const menu = document.createElement("div");
-  menu.classList = "menu";
+  menu.classList = "menu nav-btn";
   menu.innerHTML = "Menu";
   pages.appendChild(menu);
 
   const contact = document.createElement("div");
-  contact.classList = "contact";
+  contact.classList = "contact nav-btn";
   contact.innerHTML = "Contact";
   pages.appendChild(contact);
 

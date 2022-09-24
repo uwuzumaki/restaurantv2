@@ -1,9 +1,6 @@
 const Home = () => {
-  const content = document.querySelector(".content");
-
   const wrapper = document.createElement("div");
   wrapper.classList = "wrapper";
-  content.appendChild(wrapper);
 
   const homeCenter = document.createElement("div");
   homeCenter.classList = "home-center";
@@ -63,6 +60,8 @@ const Home = () => {
   saturday.classList = "saturday days";
   saturday.innerHTML = "Saturday: 11am - 11pm";
   hours.appendChild(saturday);
+
+  return wrapper;
 };
 
 export default Home;
