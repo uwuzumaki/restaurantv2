@@ -2,3 +2,11 @@
   font-size: 2rem;
   margin: 30px;
 }
+
+.menu-item {
+  border: solid 1px black;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+}

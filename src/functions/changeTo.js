@@ -25,5 +25,14 @@ const changeTo = () => {
       }
     });
   });
+
+  const logo = document.querySelector(".logo-area");
+  logo.addEventListener("click", () => {
+    const header = document.querySelector(".header");
+    const wrapper = document.querySelector(".wrapper");
+    const footer = document.querySelector(".footer");
+    wrapper.parentNode.removeChild(wrapper);
+    header.parentNode.insertBefore(Home(), footer);
+  });
 };
 export default changeTo;
