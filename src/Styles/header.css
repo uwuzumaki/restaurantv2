@@ -45,6 +45,12 @@
 }
 
 .header {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,6 +59,7 @@
 .logo-area {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo-icon {
@@ -74,4 +81,9 @@
 
 .pages > div {
   margin: 15px;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 4mm rgb(160, 0, 210));
 }
