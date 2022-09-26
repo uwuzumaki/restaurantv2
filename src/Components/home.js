@@ -19,12 +19,27 @@ const Home = () => {
 
   const location = document.createElement("div");
   location.classList = "location home-div";
-  location.innerHTML = "123 Red Velvet Avenue, Silvermoon City, Eversong Woods";
   homeCenter.appendChild(location);
+
+  const locationHeading = document.createElement("h4");
+  locationHeading.classList = "location-heading";
+  locationHeading.innerHTML = "Location:";
+  location.appendChild(locationHeading);
+
+  const locationAddress = document.createElement("p");
+  locationAddress.classList = "location-address";
+  locationAddress.innerHTML =
+    "123 Red Velvet Avenue, Silvermoon City, Eversong Woods";
+  location.appendChild(locationAddress);
 
   const hours = document.createElement("div");
   hours.classList = "hours home-div";
   homeCenter.appendChild(hours);
+
+  const hoursHeading = document.createElement("h4");
+  hoursHeading.classList = "hours-heading";
+  hoursHeading.innerHTML = "Hours: ";
+  hours.appendChild(hoursHeading);
 
   const sunday = document.createElement("p");
   sunday.classList = "sunday days";
